@@ -1,0 +1,17 @@
+{
+  "name": "gemini-mcp-server",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node build/index.js"
+  },
+  "dependencies": {
+    "@google/genai": "^1.0.0",
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "zod": "^3.22.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
